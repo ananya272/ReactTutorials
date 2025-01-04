@@ -1,0 +1,15 @@
+body {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  box-sizing: border-box; /* Ensure consistent box-sizing across elements */
+  font-family: Arial, sans-serif; /* Set a clean, readable default font */
+  font-size: 16px; /* Set a base font size */
+  line-height: 1.5; /* Improve text readability */
+  color: #333; /* Neutral text color */
+  background-color: #f9f9f9; /* Light background for better contrast */
+}
+
+/* Apply box-sizing to all elements */
+*, *::before, *::after {
+  box-sizing: inherit; /* Inherit box-sizing from body */
+}
