@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f3f4f6;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.app-container {
+  width: 90%;
+  max-width: 600px;
+  background: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+}
+
+.title {
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.stopwatch,
+.counter {
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button.start {
+  background-color: #4caf50;
+  color: white;
+}
+
+.button.start:hover {
+  background-color: #45a049;
+}
+
+.button.stop {
+  background-color: #f44336;
+  color: white;
+}
+
+.button.stop:hover {
+  background-color: #d32f2f;
+}
+
+.button.reset {
+  background-color: #2196f3;
+  color: white;
+}
+
+.button.reset:hover {
+  background-color: #1976d2;
+}
+
+.button.increment {
+  background-color: #ff9800;
+  color: white;
+  margin: 10px 0;
+}
+
+.button.increment:hover {
+  background-color: #fb8c00;
+}
+
+.button.change-color {
+  background-color: #9c27b0;
+  color: white;
+}
+
+.button.change-color:hover {
+  background-color: #7b1fa2;
+}
+
+.count-display {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
